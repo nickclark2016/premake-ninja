@@ -7,5 +7,6 @@
 ninja = require 'ninja'
 
 return {
-	'test_ninja.lua'
+	'test_ninja.lua',
+	'test_ninja_workspace.lua',
 }

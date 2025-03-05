@@ -1,0 +1,15 @@
+name: Tests
+on: [push, pull_request]
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install premake5
+      uses: Jarod42/install-premake5@v4
+      with:
+        ref: 'master'
+    - name: Test
+      run: premake5 test

@@ -1,0 +1,5 @@
+--
+-- ninja_cpp.lua
+-- Functions for writing C++ projects to Ninja build files.
+-- (c) 2025 Nick Clark and the Premake project
+--
